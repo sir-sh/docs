@@ -9,23 +9,23 @@ Welcome to sir.sh documentation! This directory contains comprehensive guides fo
 - **[Architecture](architecture.md)** - System design and core components
 - **[Development](development.md)** - Contributing and extending sir.sh
 - **[Testing](testing.md)** - Testing strategy and writing tests
+- **[Quick Start](QUICKSTART.md)** - Get up and running in 5 minutes
 
 ### Future Enhancements
 
 The `future/` directory contains detailed specifications for planned features:
 
-- **[Pack Updates](future/pack-updates.md)** - Automatic pack update functionality
-- **[Nested Properties](future/nested-properties.md)** - Template support for nested object access
-- **[Conditional Logic](future/conditional-logic.md)** - If/then conditions in workflows
-- **[Loop Constructs](future/loop-constructs.md)** - Iteration over collections
-- **[Remote Execution](future/remote-execution.md)** - Execute workflows on remote hosts
-- **[Workflow Scheduling](future/workflow-scheduling.md)** - Automated/scheduled workflow runs
+- **[Loop Constructs](future/loop-constructs.md)** - Iteration over collections (70% implemented)
+- **[Nested Properties](future/nested-properties.md)** - Template support for nested object access (implemented)
+- **[Conditional Logic](future/conditional-logic.md)** - If/then conditions in workflows (implemented)
+- **[Remote Execution](future/remote-execution.md)** - Execute workflows on remote hosts (future)
+- **[Workflow Scheduling](future/workflow-scheduling.md)** - Automated/scheduled workflow runs (future)
 
 ## Quick Links
 
 ### For Users
-- [Installation Guide](../README.md#installation)
-- [Quick Start](../README.md#quick-start)
+- [Quick Start Guide](QUICKSTART.md)
+- [Installation](../README.md#installation)
 - [Core Commands](../README.md#core-commands)
 
 ### For Developers
@@ -38,6 +38,17 @@ The `future/` directory contains detailed specifications for planned features:
 - [Testing Guide](testing.md)
 - [Code Style](development.md#code-style)
 - [Architecture Overview](architecture.md)
+
+## Repository Structure
+
+The sir.sh project is organized across multiple repositories:
+
+| Repo | URL | Description |
+|------|-----|-------------|
+| `sir-sh/cli` | https://github.com/sir-sh/cli | Main CLI application (Laravel Zero) |
+| `sir-sh/specs` | https://github.com/sir-sh/specs | 15 specifications (Spec-Kit format) |
+| `sir-sh/docs` | https://github.com/sir-sh/docs | This documentation |
+| `sir-sh/website` | https://github.com/sir-sh/website | Marketing site |
 
 ## Contributing
 
@@ -52,6 +63,6 @@ We welcome contributions! Please see the [Development Guide](development.md) for
 
 ## Version
 
-Documentation for sir.sh v1.0
+Documentation for sir.sh v0.9.x
 
-Last Updated: January 2026
+Last Updated: May 2026

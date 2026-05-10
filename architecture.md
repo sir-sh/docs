@@ -14,7 +14,7 @@ Discovers `.sir/` directories from current directory up to root.
 - Nearest layer takes precedence
 
 **Testing:**
-- 5 unit tests covering path resolution, layer precedence, and global directory handling
+- 5+ unit tests covering path resolution, layer precedence, symlink resolution, and global directory handling
 
 ### ConfigLoader
 Loads and merges YAML/JSON config files from all layers.
@@ -31,13 +31,14 @@ Manages variables and state across workflow execution.
 **Key Features:**
 - Template resolution with `{{variable}}` syntax
 - Built-in template functions:
-  - `shellQuote(var)` - Safe shell escaping
-  - `default(var, 'fallback')` - Default values
+  - `shellQuote(var)` - Safe shell escaping via `escapeshellarg()`
+  - `default(var, 'fallback')` - Default values for missing variables
+- Nested property access via `{{object.property}}` (v1: `getPath()` method)
 - Variable passing between workflow steps
 - Input parameter management
 
 **Testing:**
-- 10 unit tests covering variable storage, template resolution, and function handling
+- 10+ unit tests covering variable storage, template resolution, nested properties, and function handling
 
 ### PackManager
 Manages pack installation from Git repositories.

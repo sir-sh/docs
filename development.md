@@ -5,7 +5,7 @@ This guide helps developers contribute to sir.sh or extend it with custom functi
 ## Setting Up Development Environment
 
 ### Prerequisites
-- PHP 8.2 or higher
+- PHP 8.3 or higher
 - Git
 - Composer
 
@@ -13,8 +13,8 @@ This guide helps developers contribute to sir.sh or extend it with custom functi
 
 ```bash
 # Clone the repository
-git clone https://github.com/sir-sh/sir-cli.git
-cd sir-cli
+git clone https://github.com/sir-sh/cli.git
+cd cli
 
 # Install dependencies
 composer install
