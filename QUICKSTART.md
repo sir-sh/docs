@@ -32,7 +32,8 @@ The dry run previews the step. The actual run writes `Hello, Sir!` to
 Pass `--input=name=value` once per named input, or pass positional values in
 declaration order. Named inputs take precedence and positional values fill the
 remaining inputs. A missing required input in non-interactive mode causes a
-nonzero exit. A failing step stops the local run before subsequent steps.
+nonzero exit. By default, a failing step stops the local run before subsequent
+steps. A step can opt into continuing with `continueOnError: true`.
 
 To check discovery, dry run, execution, and failure handling in an isolated
 profile, run `sh tests/smoke-local.sh "$(command -v sir)"` from the checkout.
