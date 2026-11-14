@@ -179,4 +179,5 @@ files include the input values needed for execution and are removed when
 claimed or declined. Sir clears expired requests on access and when new requests
 arrive. Workflow commands run with your account's permissions and may use
 programs and other files from your environment. Read workflow and method
-definitions before approving, and avoid workflows that print secret values.
+definitions before approving. The approval command reports success or failure
+and keeps shell and method output out of the terminal.
