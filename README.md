@@ -66,3 +66,5 @@ We welcome contributions! Please see the [Development Guide](development.md) for
 Documentation for sir.sh v0.9.x
 
 Last Updated: May 2026
+
+[![advertisement](https://ads.servead.net/i/ab5b65b5-90e9-4298-8e67-9b896bd54489.svg)](https://ads.servead.net/c/ab5b65b5-90e9-4298-8e67-9b896bd54489)
